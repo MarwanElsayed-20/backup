@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-[Roboto];
+    @apply bg-[#292929];
+  }
+}
+@layer utilities {
+  .chosen {
+    border: 3px solid #25408f;
+    border-radius: 10px;
+  }
+}
